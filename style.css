@@ -1,0 +1,541 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ .nav{
+    text-align: center;
+  width: 80%;
+    background-color: rgba(31, 36, 36,.7);
+    overflow: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    height: 33px;
+    /* margin: auto; */
+    position: fixed;
+    z-index: 11;
+ }
+ .clear{
+    clear: both;
+ }
+ .nav img{
+    width: 50px;
+    height: 100%;
+    float: left;
+ }
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0 20px;
+    float: right;
+}
+.nav ul{
+   
+    
+   padding:0 60px;
+    list-style-type: none ;
+ 
+}
+.home{
+    background-color: rgb(255, 255, 255);
+    
+    background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;  
+position: relative;
+
+}
+.inhome p{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.inhome h1{
+    margin-bottom: 20px ;
+     
+}
+
+.inimg{
+    margin: auto 10px;
+width: 40%;
+float: left;
+height: 200px;
+}
+.inimg img{
+    width: 100%;
+    height: 100%;
+  
+}
+ .incon{
+    position: absolute;
+width: 80%;
+height: 30%;
+padding-top: 12%;
+text-align: center;
+transform: translate(15%,23%);
+margin: auto;
+ }
+ 
+ 
+
+.inhome{
+ float: left;
+
+ width: 50%;
+ color: rgb(14, 14, 15);
+text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    padding: 16px 30px;
+}
+.btn2{
+    background-color: aquamarine;
+}
+.btn:hover{
+background-color: rgb(112, 116, 116);
+
+}
+/* *********************************************************** */
+.welcome{
+  padding-bottom: 200px;
+padding-top: 100px;
+background: #ccc;
+}
+
+ .wh{
+    padding-top: 46px;
+text-align: center;
+ 
+font-size: 40px;
+ 
+}
+.brdr{
+    width:100px;
+    height: 5px;
+    background-color: rgb(119, 16, 16);
+    margin: auto;
+    margin-bottom: 75px;
+}
+.div{
+    width: 25%;
+    transition-duration: 2s;
+    position: relative;
+    border: 1px solid ;
+    float: left;
+    /* transition-duration: 1s; */
+    text-align: center;
+    margin: 0 40px;
+}
+.divhov {
+    position: absolute;
+width: 100%;
+background-color: rgb(130, 130, 134);
+/* transition-duration: 2s; */
+z-index: -1;
+}
+.div:hover .divhov{ 
+height: 100%;
+transition-duration: 2s;
+color: #b73e3e;;
+}
+.div:hover a{
+    color: #b73e3e;
+}
+.div:hover{
+    color:#b73e3e;;
+}
+.div i{
+    margin: 5px auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+.wh2{
+    margin-bottom: 20px;
+}
+.wp{
+    padding:0  15px;
+    margin-bottom: 30px;
+}
+.container-wel{
+      text-align: center;
+  margin: 0 auto;
+  width: 76%;
+
+}
+.div a{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: rgb(6, 148, 25);
+}
+
+/*******************************************************/
+.Featured-Works{
+    padding-top: 65px;
+    margin-bottom: 100px;
+background-color: rgb(169, 143, 143);
+}
+.featimgs{
+   
+margin: auto ;
+padding-bottom: 100px;
+width: 70%;
+
+}
+.foodimg{
+    width: 33%;
+    float: left;
+    position: relative;
+    /* border-radius: 50%; */
+}
+.food-klam h2{
+    margin: 31px auto;
+}
+.food-klam{
+position: absolute;
+color: beige;
+text-align: center;
+font-weight: bold;
+top: 45%;
+margin: auto 30px;
+/* padding: 30px; */
+visibility: hidden;
+z-index: 1;
+}
+.foodimg:hover .foodimghov{
+height: 100%;
+
+
+}
+.foodimghov{
+
+    overflow: hidden;
+    position: absolute;
+background-color: rgba(106, 106, 107,.5);
+    width: 100%;
+    z-index: -11;
+    transition-duration: 2s;
+}
+.foodimg:hover .food-klam{
+transition-duration: 3s;
+visibility: visible;
+top: 22%;
+
+
+}
+.featimgs img{
+    /* border-radius: 50%; */
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+}
+/**********************************************************/
+.appdev{
+    position: relative;
+    border: 2px solid gray;
+    margin: 15px;
+    width: 30%;
+    float: left;
+    transition-duration: 2s;
+}
+.appdev i{
+    font-size: 33px;
+    padding-left: 10px;
+    position:absolute;
+    display: inline-block;
+    top: 10%;
+}
+.appdevhov{
+    transition-duration: 2s;
+position: absolute;
+width: 100%;
+background-color: rgba(134, 137, 137,.5);
+z-index: -1;
+}
+.appdev:hover{
+    
+    color: rgb(76, 68, 68);
+}
+.appdev:hover .appdevhov{
+transition-duration: 2s;
+height: 100%;
+
+
+
+
+}
+.appdevcont{
+ 
+    padding: 30px 69px;
+}
+.appdevcont p{
+    line-height: 1.6;
+font-size: 17px;
+
+}
+.happ{
+
+margin-bottom: 10px;
+
+}
+.appdivcontainer{
+margin:  50px;
+
+}
+/***********************************/
+.brdr1{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 100px ;
+    height: 5px ;
+    background-color: blue;
+}
+.list{
+    list-style-type: none;
+}
+.list li{
+    margin-top: 15px;
+    font-size: 17px;
+}
+.cont h2{
+font-size: 30px;
+margin-bottom: 10px;
+
+}
+.cont p{
+     
+    /* width:fit-content ; */
+    font-size: 20px;
+    margin-bottom: 15px;
+padding-right: 20px;
+}
+.cont{
+float: left;
+padding: 100px ;
+ 
+}
+.img{
+    position: relative;
+    float: right;
+}
+.cir{
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+     transition-duration: 1s;
+    margin-left: 5px;
+    width: 10px ;
+    height: 10px;
+    border-radius: 50%;
+}
+.cir1{
+
+    bottom: 0px;
+    text-align: center;
+    right: 50%;
+}
+.cir2{
+background-color: rgb(46, 106, 180);
+    bottom: 0px;
+    text-align: center;
+    right: 53%;
+}
+.cir1:hover{
+  background-color: rgb(46, 106, 180);
+
+}
+.cir3{
+
+    bottom: 0px;
+    text-align: center;
+    right: 47%;
+}
+.cir3:hover{
+     background-color: rgb(46, 106, 180);
+}
+.dots{
+
+    padding: 9px;
+}
+/*************************************************/
+.attachments{
+    padding: 54px 100px;
+position: relative;
+
+z-index: -1;
+    background-image: url(bgg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.attachments img{
+    position: absolute;
+    z-index:-1;
+}
+.container{
+    text-align: center;
+width:300px 80%;
+margin: auto;
+
+}
+.attach-item{
+ 
+text-align: center;
+float: left;
+margin: 50px 100px;
+
+}
+.attach-item i{
+    font-size: 30px;
+}
+.attach-item h2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.attach-item p{
+font-weight: bold;
+
+}
+.layeratt{
+    z-index: 1;
+    background-color: rgba(0, 0, 0,.2);
+}
+.attach-items{
+   
+    margin: 300px 0;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+/*************************************************/
+.container-p{
+    text-align: center;
+    margin: auto;
+    padding: 0px 117px;
+    
+}
+.plan
+{
+    overflow: hidden;
+    border-radius: 30px;
+    transition-duration: 1.7s;
+    position: relative;
+    width: 30%;
+    text-align: center; 
+   
+    float: left;
+    border: 2px solid black;
+}
+.circle{
+    position: relative;
+     margin:  10px auto;
+    width: 100px;
+    height: 100px ;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+.plan h2{
+    position: relative;
+    padding-top: 20px;
+}
+.span1{
+    font-weight: bold;
+position: absolute;
+top: 5%;
+font-size: 45px;
+right: 18%;
+}
+.span2{
+    font-weight: bold;
+    position: absolute;
+    top:55%;
+    right: 9%;
+    
+}
+.ulp{
+    position: relative;
+    padding-top: 15px;
+}
+.plan2{
+margin: auto 40px;
+}
+.lip{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.btn3{
+    margin: 20px auto;
+    padding: 8px 36px;
+}
+.c{
+    transition-duration:1s;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+ background-color: rgba(76, 76, 76, 0.7);
+position: absolute;
+top: 0;
+left: 0;
+right: 0%;
+}
+ 
+.plan:hover .c{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(76, 76, 76, 0.7);
+    visibility: visible;
+}
+.plan:hover button{
+    position: relative  ;
+}
+ 
+.plan:hover{
+    color: antiquewhite;
+}
+.pricing-table{
+
+margin-top: 100px;
+margin-bottom: 100px;
+}
+/********************************************/
+.sec img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin: auto 10px;
+}
+.contatn{  width:90%; 
+    margin: auto;
+    padding: 100px 0;
+}
+.kk
+{
+  
+float: left;
+margin: 10px auto;
+padding: 0 10px;
+}
+.sec{
+    color: blanchedalmond;
+    float: left;
+    margin: auto 30px;
+    margin-left: 40px;
+}
+.fasel{
+margin: 100px auto;
+    background-image: url(home4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .sec p{
+    font-weight: bold;
+ }
